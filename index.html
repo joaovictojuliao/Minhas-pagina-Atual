@@ -16,12 +16,14 @@
         
     </header>
     <nav>
-        <span id="icone" class="material-symbols-outlined">
+        <span id="icone" class="material-symbols-outlined" onclick="clickMenu()">
         menu_open
         </span>
+    <menu>
         <a href="index.html">Home</a>
         <a href="curriculo.html">Curriculo</a>
         <a href="falecmg.html">Fale Comigo</a>
+    </menu>
     </nav>
     <main>
         <article>
@@ -81,6 +83,11 @@
             <p>Então é isso! Espero que você tenha gostado de conhecer um pouco sobre mim e garanto que sou um ótimo investimento.</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            items.style.display = 'block'
+        }
+    </script>
     <footer>
         <p>Site criado por <strong><a href="https://github.com/joaovictojuliao" target="_blank">João Victor</a></strong> </p>
     </footer>
