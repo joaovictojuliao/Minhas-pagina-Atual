@@ -46,6 +46,10 @@ header > h1 {
     text-shadow: 2px 2px 0px black;
 }
 
+i#icone {
+    background-color: gray;
+}
+
 header > p {
     font-family: var(--fonte-padrão);
     font-size: 1.2em;
